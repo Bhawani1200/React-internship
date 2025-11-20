@@ -1,26 +1,26 @@
-import bannerImageOne from "../assets/sliders/image4.jpg";
-import bannerImageTwo from "../assets/sliders/image2.png";
-import bannerImageThree from "../assets/sliders/image3.png";
+import bannerImageOne from "../assets/sliders/image5.png";
+import bannerImageTwo from "../assets/sliders/image4.png";
+import bannerImageThree from "../assets/sliders/image9.png";
 export const bannerLists = [
-  {
-    id: 1,
-    image: bannerImageOne,
-    title: "Home Comfort",
-    subtitle: "Living Room",
-    description: "Upgrade your space with cozy and stylish sofas",
-  },
-  {
-    id: 2,
-    image: bannerImageTwo,
-    title: "Entertainment Hub",
-    subtitle: "Smart TV",
-    description: "Experience the latest in home entertainment",
-  },
-  {
-    id: 3,
-    image: bannerImageThree,
-    title: "Playful Picks",
-    subtitle: "Kids' Clothing",
-    description: "Bright and fun styles for kids, up to 20% off",
-  },
+{
+  id: 1,
+  image: bannerImageOne,
+  title: "Your Health, Our Priority",
+  subtitle: "Comprehensive Care",
+  description: "Access trusted medical services with expert doctors and modern facilities.",
+},
+ {
+  id: 2,
+  image: bannerImageTwo,
+  title: "Emergency Assistance",
+  subtitle: "24/7 Ambulance Service",
+  description: "Quick and reliable emergency response whenever you need urgent care.",
+},
+{
+  id: 3,
+  image: bannerImageThree,
+  title: "Essential Medicines",
+  subtitle: "Affordable Pharmacy",
+  description: "Get genuine medicines and health supplies delivered to your doorstep.",
+}
 ];
