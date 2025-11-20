@@ -34,7 +34,7 @@ const Navbar = () => {
           <li className="font-medium transition-all duration-150">
             <Link
               className={`${
-                path === "/" ? "text-white  font-semibold" : "text-gray-200"
+                path === "/services" ? "text-white  font-semibold" : "text-gray-200"
               }`}
               to="/services"
             >
