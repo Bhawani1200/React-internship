@@ -1,4 +1,4 @@
-import bannerImageOne from "../assets/sliders/image5.png";
+import bannerImageOne from "../assets/sliders/image8.png";
 import bannerImageTwo from "../assets/sliders/image4.png";
 import bannerImageThree from "../assets/sliders/image9.png";
 export const bannerLists = [
