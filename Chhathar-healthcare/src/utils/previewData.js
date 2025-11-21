@@ -2,6 +2,8 @@ import doctorOne from "../assets/preview/image3.jpg"
 import doctorTwo from "../assets/preview/image2.jpg"
 import doctorThree from "../assets/preview/image1.jpeg"
 import doctorFour from "../assets/preview/image4.jpeg"
+import doctorFive from "../assets/preview/image5.webp"
+import doctorSix from "../assets/preview/image6.jpg"
 
 
 export const doctorsData = [
@@ -49,4 +51,26 @@ export const doctorsData = [
     description:
       "Dedicated to children's health, vaccinations, and neonatal care.",
   },
+  {
+  id: 5,
+  image: doctorFive,
+  name: "Dr. Prakash Thapa",
+  speciality: "General Physician",
+  degree: "MBBS, MD (Internal Medicine)",
+  experience: "9+ Years",
+  schedule: "Sun-Fri | 8:00 AM - 2:00 PM",
+  description:
+    "Experienced in diagnosing and treating chronic illnesses, emergency care, and general health consultations.",
+},
+{
+  id: 6,
+  image: doctorSix,
+  name: "Dr. Anjali Koirala",
+  speciality: "Dermatologist & Skin Specialist",
+  degree: "MBBS, MD (Dermatology)",
+  experience: "7+ Years",
+  schedule: "Sun-Thu | 11:00 AM - 5:00 PM",
+  description:
+    "Specialist in skin diseases, allergy treatments, cosmetic dermatology, and laser procedures.",
+},
 ];
