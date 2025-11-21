@@ -3,6 +3,7 @@ import HeroBanner from "./HeroBanner";
 import { FaExclamationTriangle } from "react-icons/fa";
 import Card from "../shared/ServiceCard";
 import { servicesData } from "../../utils/servicesData";
+import Preview from "../service/Preview";
 
 const Home = ({ image, title, subtitle, description }) => {
   return (
@@ -33,6 +34,7 @@ const Home = ({ image, title, subtitle, description }) => {
           ))}
         </div>
       </div>
+      <Preview />
     </div>
   );
 };
